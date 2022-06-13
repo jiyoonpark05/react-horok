@@ -1,0 +1,41 @@
+.input {
+  position: inline-block;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.input input {
+  width: 80%;
+  border: none;
+  font: inherit;
+  padding: 0.25rem;
+  margin-left: 0.3rem;
+  margin-right: 0.75rem;
+}
+
+.input input::placeholder {
+  color: #cea794;
+}
+
+.input button {
+  border: none;
+  background-color: #82563d;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  font-weight: bold;
+  float: right;
+}
+
+.spanLine {
+  content: "";
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  border: 1px solid #82563d;
+}

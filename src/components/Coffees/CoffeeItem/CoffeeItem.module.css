@@ -1,0 +1,16 @@
+.cardFrame {
+  display: flex;
+}
+.coffee-image {
+  width: 35%;
+  height: 35%;
+}
+
+.description {
+  width: 15rem;
+  margin-left: 1rem;
+}
+
+.description p {
+  margin-top: 0px;
+}
