@@ -1,10 +1,10 @@
 import classes from "./CoffeeSearchForm.module.css";
-import Input from "../UI/Input";
+import Search from "../UI/Search";
 
 const CoffeeSearchForm = () => {
   return (
     <section className={classes.searchForm}>
-      <Input />
+      <Search />
     </section>
   );
 };

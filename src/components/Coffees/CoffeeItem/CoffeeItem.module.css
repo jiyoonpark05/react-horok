@@ -2,13 +2,13 @@
   display: flex;
 }
 .coffee-image {
-  width: 35%;
-  height: 35%;
+  width: 20%;
+  height: 20%;
 }
 
 .description {
-  width: 15rem;
-  margin-left: 1rem;
+  width: 45rem;
+  margin-left: 1em;
 }
 
 .description p {

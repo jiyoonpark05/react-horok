@@ -1,12 +1,8 @@
-.input {
-  height: 1.5em;
+.select {
+  margin: 0.3em;
+  height: 2em;
   border-radius: 0.3em;
-  box-shadow: none;
-  outline: 0;
   border-color: #e4ceb7;
   background-color: #fffcf9;
-}
-
-.input::placeholder {
   color: #82563d;
 }
