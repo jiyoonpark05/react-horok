@@ -1,8 +1,12 @@
 .select {
-  margin: 0.3em;
-  height: 2em;
+  width: 100%;
+  height: 2.5em;
   border-radius: 0.3em;
   border-color: #e4ceb7;
   background-color: #fffcf9;
   color: #82563d;
+}
+
+.option {
+  text-align: center;
 }

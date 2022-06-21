@@ -5,7 +5,9 @@ const Select = (props) => {
 
   return (
     <select className={classes.select}>
-      <option value="">선택</option>
+      <option className={classes.option} value="">
+        선택
+      </option>
       {options}
     </select>
   );
