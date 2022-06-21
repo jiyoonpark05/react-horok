@@ -1,0 +1,27 @@
+.starRating {
+  display: flex;
+  font-size: 3em;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.starRating input {
+  display: none;
+}
+
+.starRating label {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.starRating :checked ~ label {
+  color: #ffc700;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #ffc700;
+}

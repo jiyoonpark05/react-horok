@@ -2,6 +2,7 @@ import Modal from "../UI/Modal";
 import Input from "../UI/Input";
 import Select from "../UI/Select";
 import Radio from "../UI/Radio";
+import StarRating from "../UI/StarRating";
 import classes from "./Note.module.css";
 
 const DUMMY_COUNTRY = [
@@ -24,7 +25,7 @@ const Note = (props) => {
       <form>
         <div className={classes.noteWrapper}>
           <div>
-            <h2>CUPING NOTE</h2>
+            <h2></h2>
             <div className={classes.selContainer}>
               <div className={classes.selRow1}>
                 <Select options={DUMMY_COUNTRY} />
@@ -47,10 +48,10 @@ const Note = (props) => {
           <div>
             <h2>TASTE MAP</h2>
             <div className={classes.radioContainer}>
-              <span className={classes.radioRow1}>밸런스</span>
-              <span className={classes.radioRow3}>
+              <div className={classes.radioRow1}>밸런스</div>
+              <div className={classes.radioRow3}>
                 <Radio />
-              </span>
+              </div>
             </div>
             <div className={classes.radioContainer}>
               <span className={classes.radioRow1}>단맛</span>
@@ -59,36 +60,45 @@ const Note = (props) => {
               </span>
             </div>
             <div className={classes.radioContainer}>
-              <span className={classes.radioRow1}>신맛</span>
-              <span className={classes.radioRow3}>
+              <div className={classes.radioRow1}>신맛</div>
+              <div className={classes.radioRow3}>
                 <Radio />
-              </span>
+              </div>
             </div>
             <div className={classes.radioContainer}>
-              <span className={classes.radioRow1}>쓴맛</span>
-              <span className={classes.radioRow3}>
+              <div className={classes.radioRow1}>쓴맛</div>
+              <div className={classes.radioRow3}>
                 <Radio />
-              </span>
+              </div>
             </div>
             <div className={classes.radioContainer}>
-              <span className={classes.radioRow1}>바디</span>
-              <span className={classes.radioRow3}>
+              <div className={classes.radioRow1}>바디</div>
+              <div className={classes.radioRow3}>
                 <Radio />
-              </span>
+              </div>
             </div>
           </div>
           <div className={classes.flavorNote}>
-            <h2>FLAVOR NOTE</h2>
+            <h2>FLAVOR</h2>
             <input></input>
           </div>
-          <div className={classes.flavorCircleWrapper}>
-            <span className={classes.flavorCircle} />
-            <span className={classes.flavorCircle} />
+          <div className={classes.circleWrapper}>
+            <div className={classes.circle}></div>
+            <div className={classes.circle}></div>
+            <div className={classes.circle}></div>
+            <div className={classes.circle}></div>
+            <div className={classes.circle}></div>
           </div>
           <div>
             <h2> NOTE</h2>
             <div>
               <textarea className={classes.noteTextarea} />
+            </div>
+          </div>
+          <div className={classes.radioContainer}>
+            <div className={classes.radioRow1}>총점</div>
+            <div className={classes.radioRow3}>
+              <StarRating />
             </div>
           </div>
           <div>
