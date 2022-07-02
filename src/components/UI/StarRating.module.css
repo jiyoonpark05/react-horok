@@ -21,7 +21,7 @@
   color: #ffc700;
 }
 
-.star-rating label:hover,
-.star-rating label:hover ~ label {
+.starRating label:hover,
+.starRating label:hover ~ label {
   color: #ffc700;
 }

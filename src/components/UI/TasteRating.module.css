@@ -1,11 +1,32 @@
-/* .wrapper {
+.ratingBar {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 10px;
+  background-color: #cea794;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
-.form {
+.ratingBar input {
+  cursor: pointer;
+}
+
+.ratingBar label {
+  color: white;
+}
+
+.ratingBar div :checked ~ label {
+  background-color: #ffc700;
+}
+
+#bar {
+  width: 5%;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+}
+
+/* .form {
   width: 90%;
   max-width: 500px;
 }
