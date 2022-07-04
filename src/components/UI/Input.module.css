@@ -10,3 +10,7 @@
 .input::placeholder {
   color: #82563d;
 }
+
+input[class$="invalid"] {
+  border-color: #b40e0e;
+}

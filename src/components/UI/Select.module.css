@@ -5,8 +5,13 @@
   border-color: #e4ceb7;
   background-color: #fffcf9;
   color: #82563d;
+  text-align: center;
 }
 
 .option {
   text-align: center;
+}
+
+select[class$="invalid"] {
+  border-color: #b40e0e;
 }
